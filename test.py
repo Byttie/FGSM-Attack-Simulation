@@ -1,7 +1,7 @@
 import torch
 import numpy as np  
 import matplotlib.pyplot as plt
-epsilons = [0, .05, .1, .15, .2, .25, .3]
+epsilons = [0, .05, .1, .15, .2, .25, .3] #epsilon values for the FGSM attack
 pretrained_model = "lenet_mnist_model.pth"
 # Set random seed for reproducibility
 torch.manual_seed(42)
